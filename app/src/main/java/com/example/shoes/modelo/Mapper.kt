@@ -13,11 +13,11 @@ fun fromInternetToShoesEntity(phoneList: List<ShoesApiClass>): List<ShoesEntity>
 
         ShoesEntity(
             id= it.id,
-            shoesName = it.name,
+            shoesName = it.nombre,
             shoesOrigen = it.origen,
-            shoesImage = it.image,
+            shoesImage = it.imagenLink,
             shoesMarca = it.marca,
-            shoesNumber = it.number
+            shoesNumber = it.numero
 
         )
     }
@@ -28,13 +28,13 @@ fun fromInternetToShoesDetailEntity(shoes: DetailsShoesApiClass): DetailsShoesEn
 
     return DetailsShoesEntity(
         id=shoes.id,
-        shoesName = shoes.name,
+        shoesName = shoes.nombre,
         shoesOrigen = shoes.origen,
-        shoesImage = shoes.image,
+        shoesImage = shoes.imagenLink,
         shoesMarca = shoes.marca,
-        shoesNumber = shoes.number,
-        shoesPrice = shoes.price,
-        shoesEntrega = shoes.Entrega
+        shoesNumber = shoes.numero,
+        shoesPrice = shoes.precio,
+        shoesEntrega = shoes.entrega
 
     )
 

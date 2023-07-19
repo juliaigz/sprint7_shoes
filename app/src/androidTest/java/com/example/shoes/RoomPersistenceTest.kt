@@ -43,9 +43,6 @@ class RoomPersistenceTest {
 
 
         // Act
-
-
-
         shoesDao.insertAllShoes(shoesList)
 
         // Assert

@@ -2,12 +2,12 @@ package com.example.shoes.modelo.remote.fromInternet
 
 data class DetailsShoesApiClass (
     val id:String,
-    val name:String,
+    val nombre:String,
     val origen:String,
-    val image:String,
+    val imagenLink:String,
     val marca:String,
-    val number:String,
-    val price:String,
-    val Entrega:Boolean
+    val numero:String,
+    val precio:String,
+    val entrega:Boolean
 
         )
